@@ -1,0 +1,61 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 20/12/2016 08:12
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 25px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-battery:before { content: "\f100"; }
+.flaticon-breaks:before { content: "\f101"; }
+.flaticon-car:before { content: "\f102"; }
+.flaticon-car-door:before { content: "\f103"; }
+.flaticon-car-key:before { content: "\f104"; }
+.flaticon-car-lights:before { content: "\f105"; }
+.flaticon-car-lights-1:before { content: "\f106"; }
+.flaticon-car-lights-2:before { content: "\f107"; }
+.flaticon-car-radio:before { content: "\f108"; }
+.flaticon-chassis:before { content: "\f109"; }
+.flaticon-crane:before { content: "\f10a"; }
+.flaticon-gas-station:before { content: "\f10b"; }
+.flaticon-gasoline:before { content: "\f10c"; }
+.flaticon-gearstick:before { content: "\f10d"; }
+.flaticon-mechanic:before { content: "\f10e"; }
+.flaticon-mist:before { content: "\f10f"; }
+.flaticon-motor:before { content: "\f110"; }
+.flaticon-motor-1:before { content: "\f111"; }
+.flaticon-oil:before { content: "\f112"; }
+.flaticon-piston:before { content: "\f113"; }
+.flaticon-speedometer:before { content: "\f114"; }
+.flaticon-starter:before { content: "\f115"; }
+.flaticon-starter-1:before { content: "\f116"; }
+.flaticon-steering-wheel:before { content: "\f117"; }
+.flaticon-wheel:before { content: "\f118"; }
+.flaticon-wheel-1:before { content: "\f119"; }
+.flaticon-wheel-2:before { content: "\f11a"; }
+.flaticon-windshield:before { content: "\f11b"; }
+.flaticon-woofer:before { content: "\f11c"; }
+.flaticon-wrench:before { content: "\f11d"; }
